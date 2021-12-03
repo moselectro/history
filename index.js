@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelectorAll("a.yakor").forEach((function(t){t.addEventListener("click",(function(t){t.preventDefault();var e=this.getAttribute("href").substring(1),n=document.getElementById(e).getBoundingClientRect().top-0;window.scrollBy({top:n,behavior:"smooth"})}))}))})();
